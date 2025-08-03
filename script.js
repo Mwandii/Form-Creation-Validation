@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // Show feedback
-        feedbackDiv.style.display = "block"; 
+        feedbackDiv.style.display = "block"; // Make visible
 
         if (isValid) {
             feedbackDiv.textContent = "Registration successful!";
